@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Fonts ─────────────────────────────────────────── */
+  --font-playfair: "Playfair Display", Georgia, serif;
+  --font-inter:    "Inter", system-ui, sans-serif;
+  --font-sans:     "Inter", system-ui, sans-serif;
+  --font-serif:    "Playfair Display", Georgia, serif;
+
+  /* ── Brand colours ─────────────────────────────────── */
+  --color-charcoal:       #1A1A1A;
+  --color-iac-gold:       #8C7320;
+  --color-iac-gold-light: #A68B2A;
+  --color-slate:          #2C2C3A;
+  --color-warm-charcoal:  #3D3D3D;
+  --color-parchment-gold: #F5EDD6;
+  --color-brass:          #C49A3C;
+  --color-champagne:      #E8D49A;
+  --color-burnished-gold: #6B5718;
+  --color-linen:          #FAF8F4;
+  --color-fog:            #F0EFED;
+  --color-stone:          #9A9A9A;
+  --color-graphite:       #5A5A5A;
+  --color-ink:            #1A1A1A;
+
+  /* ── Shadows ────────────────────────────────────────── */
+  --shadow-xs: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.14);
+  --shadow-xl: 0 16px 48px rgba(0,0,0,0.18);
+
+  /* ── Max-width ──────────────────────────────────────── */
+  --width-container: 1280px;
+}
+
+/* ── Base styles ──────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-inter);
+    color: var(--color-charcoal);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-playfair);
+  }
+}
+
+/* ── Custom scrollbar ─────────────────────────────────── */
+::-webkit-scrollbar          { width: 6px; }
+::-webkit-scrollbar-track    { background: #FAF8F4; }
+::-webkit-scrollbar-thumb    { background: #C49A3C; border-radius: 3px; }
