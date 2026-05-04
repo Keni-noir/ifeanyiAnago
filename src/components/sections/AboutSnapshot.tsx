@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Calendar, Building2, Scale } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
 
@@ -71,12 +72,13 @@ export default function AboutSnapshot() {
               >
                 {/* Placeholder — replace with actual image */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-20 h-20 rounded-full border-4 border-brass/30 flex items-center justify-center mx-auto mb-4">
-                      <Scale size={32} className="text-brass/60" />
-                    </div>
-                    <p className="font-playfair italic text-champagne/40 text-sm">Professional photo</p>
-                  </div>
+                     <Image
+                      src="/images/hero/slide-3.jpg"
+                      alt="Office"
+                        width={600}
+                        height={100}
+                      className="object-fill w-full h-full"
+                    />
                 </div>
               </div>
               {/* Gold border accent — left and bottom */}
