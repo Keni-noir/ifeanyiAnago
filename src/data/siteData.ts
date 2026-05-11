@@ -29,10 +29,7 @@ export const teamMembers = [
     name: "Ifeanyi Samuel Agugoesi",
     title: "Senior Associate | Lead Quantity Surveyor & Cost Management Specialist",
     credentials: "BSc (Hons) QS, MNIQS, RQS, MBA (Finance & Investment), PRINCE2, FICIArb",
-    bio: "Mr. Ifeanyi Samuel Agugoesi is a Registered Quantity Surveyor with over sixteen years of experience in cost control, project management, and construction dispute resolution. He holds an MBA in Finance and Investment, a PRINCE2 Certification in Project Management, and is a Fellow of the Institute of Construction Industry Arbitrators (ICIArb), where he also serves as a Membership Entry Training Facilitator.",
-    fullBio: [
-      "He is recognized for his expertise in Total Cost Management, Contract Administration, Construction Claims and Expert Witnessing in construction disputes, Project Financing Alternatives, and Procurement Advisory. As key personnel at Ifeanyi Anago & Co, Mr. Agugoesi has contributed to several notable projects and also serves as a Consultant Trainer at Ifeanyi Anago & Co, providing procurement and project monitoring training. A  result-driven professional, he combines technical and financial insight to deliver efficient, transparent, and value-oriented project outcomes."
-    ],
+    bio: "Mr. Ifeanyi Samuel Agugoesi is a Registered Quantity Surveyor with over sixteen years of experience in cost control, project management, and construction dispute resolution. He holds an MBA in Finance and Investment, a PRINCE2 Certification in Project Management, and is a Fellow of the Institute of Construction Industry Arbitrators (ICIArb), where he also serves as a Membership Entry Training Facilitator. He is recognized for his expertise in Total Cost Management, Contract Administration, Construction Claims and Expert Witnessing in construction disputes, Project Financing Alternatives, and Procurement Advisory. As key personnel at Ifeanyi Anago & Co, Mr. Agugoesi has contributed to several notable projects and also serves as a Consultant Trainer at Ifeanyi Anago & Co, providing procurement and project monitoring training. A  result-driven professional, he combines technical and financial insight to deliver efficient, transparent, and value-oriented project outcomes",
     featured: false,
   },
   {
@@ -40,10 +37,7 @@ export const teamMembers = [
     name: "Ekanem Edikan",
     title: "Associate Counsel | Construction & Infrastructure Law Specialist",
     credentials: "LLB (Hons), BL, FICIArb",
-    bio: "Ekanem Edikan is a versatile legal practitioner with more than seven years of experience in Construction and Infrastructure Law, Commercial Transactions, and Regulatory Compliance. His work spans the drafting and negotiation of construction contracts, managing compliance for large-scale real estate and infrastructure developments, and providing strategic legal advisory services to startups and established businesses.",
-    fullbio:[
-      "Ekanem holds a Law degree from the University of Uyo, and the Nigerian Law School, and professional certifications in Fintech Law, Legal Tech, and Digital Transformation from leading global institutions. He is a Fellow of the Institute of Construction Industry Arbitrators (ICIArb) and a member of the Nigerian Bar Association and the Construction, Projects & Infrastructure Committee (NBA—SBL)."
-    ],
+    bio: "Ekanem Edikan is a versatile legal practitioner with more than seven years of experience in Construction and Infrastructure Law, Commercial Transactions, and Regulatory Compliance. His work spans the drafting and negotiation of construction contracts, managing compliance for large-scale real estate and infrastructure developments, and providing strategic legal advisory services to startups and established businesses. Ekanem holds a Law degree from the University of Uyo, and the Nigerian Law School, and professional certifications in Fintech Law, Legal Tech, and Digital Transformation from leading global institutions. He is a Fellow of the Institute of Construction Industry Arbitrators (ICIArb) and a member of the Nigerian Bar Association and the Construction, Projects & Infrastructure Committee (NBA—SBL).",
     featured: false,
   },
   {
@@ -51,8 +45,7 @@ export const teamMembers = [
     name: "Ujunwa Blessing Onwubumpe",
     title: "Office Administrator",
     credentials: "Certified Mediator",
-    bio: "Onwubumpe Ujunwa Blessing is a dedicated and result-oriented Office Administrator with over five years of progressive experience at Ifeanyi Anago & Co. She plays a central role in supporting the firm's Arbitration, Construction Law, and Consultancy operations by coordinating administrative processes, maintaining  comprehensive client and case records, and ensuring seamless day-to-day office management.",
-    fullBio:[" A Computer Science graduate, Ujunwa combines a strong technical foundation with excellent organizational and communication skills. She is also a Certified Mediator, trained by the Settlement House ADR Training Institute, and continues to develop her interest in alternative dispute resolution and professional growth within the legal and consultancy space"],
+    bio: "Onwubumpe Ujunwa Blessing is a dedicated and result-oriented Office Administrator with over five years of progressive experience at Ifeanyi Anago & Co. She plays a central role in supporting the firm's Arbitration, Construction Law, and Consultancy operations by coordinating administrative processes, maintaining  comprehensive client and case records, and ensuring seamless day-to-day office management. A Computer Science graduate, Ujunwa combines a strong technical foundation with excellent organizational and communication skills. She is also a Certified Mediator, trained by the Settlement House ADR Training Institute, and continues to develop her interest in alternative dispute resolution and professional growth within the legal and consultancy space",
     featured: false,
   },
   {
