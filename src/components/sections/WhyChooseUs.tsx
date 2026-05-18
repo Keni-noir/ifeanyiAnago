@@ -1,6 +1,7 @@
 import { CheckCircle, Building2 } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
 import Button from "@/components/ui/Button";
+import Image from "next/image";
 
 const differentiators = [
   {
@@ -32,24 +33,13 @@ export default function WhyChooseUs() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
           {/* Left — image / visual placeholder */}
           <div className="hidden lg:block">
-            <div
-              className="relative h-[500px] rounded-sm overflow-hidden"
-              style={{
-                background: "linear-gradient(160deg, #2C2C3A 0%, #1A1A1A 100%)",
-              }}
-            >
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center px-8">
-                  <Building2 size={48} className="text-brass/40 mx-auto mb-6" />
-                  <p className="font-playfair italic text-white/20 text-base leading-relaxed">
-                    Professional construction site or meeting room photography
-                  </p>
-                </div>
-              </div>
-              {/* Decorative gold corner */}
-              <div className="absolute top-0 left-0 w-16 h-16 border-t-[3px] border-l-[3px] border-brass/60" />
-              <div className="absolute bottom-0 right-0 w-16 h-16 border-b-[3px] border-r-[3px] border-brass/60" />
-            </div>
+              <Image
+               src="/images/WCU.jpeg"
+               alt="Office"
+                 width={600}
+                 height={100}
+               className="object-fill w-full h-full"
+              />
           </div>
 
           {/* Right — content */}

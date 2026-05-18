@@ -4,6 +4,7 @@ import CTABanner from "@/components/ui/CTABanner";
 import SectionHeader from "@/components/ui/SectionHeader";
 import TeamCard from "@/components/ui/TeamCard";
 import { teamMembers } from "@/data/siteData";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Our Team",
@@ -79,14 +80,24 @@ export default function TeamPage() {
               >
                 {/* Overlapping photo circle */}
                 <div className="absolute -top-10 left-1/2 -translate-x-1/2">
-                  <div className="w-20 h-20 rounded-full border-4 border-brass shadow-md bg-parchment-gold flex items-center justify-center">
-                    <span className="font-playfair font-bold text-2xl text-iac-gold">
-                      {member.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
-                    </span>
-                  </div>
+                   <div className="w-32 h-32 rounded-full border-4 border-brass shadow-md bg-parchment-gold flex items-center justify-center overflow-hidden">
+                      {member.image ? (
+                        <Image
+                          src={member.image}
+                          alt={member.name}
+                          width={80}
+                          height={80}
+                          className="w-full h-full object-cover object-top"
+                        />
+                     ) : (
+                        <span className="font-playfair font-bold text-2xl text-iac-gold">
+                          {member.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
+                        </span>
+                      )}
+                    </div>
                 </div>
 
-                <h3 className="font-playfair text-2xl font-semibold text-charcoal mb-1">
+                <h3 className="font-playfair text-2xl font-semibold text-charcoal mb-1 mt-10">
                   {member.name}
                 </h3>
                 <p className="font-inter text-xs font-semibold uppercase tracking-[0.08em] text-iac-gold mb-1">
@@ -121,14 +132,16 @@ export default function TeamPage() {
         <div className="max-w-[1280px] mx-auto px-5 md:px-10 lg:px-20">
           <SectionHeader eyebrow="The Full Team" title="Every Member, Every Role" centered />
 
-          <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-6">
             {rest.map((member) => (
               <TeamCard
                 key={member.id}
                 name={member.name}
+                image={member.image}
                 title={member.title}
                 credentials={member.credentials}
                 bio={member.bio}
+                fullBio={member.fullBio}
                 featured={false}
               />
             ))}
